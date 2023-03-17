@@ -7,6 +7,9 @@ import java.util.List;
 
 public interface EmployeeService {
     List<Employee> getAllEmployees();
+
+    Employee getEmployeeById(long id);
+
     Model setAddEmployeeModel(Model model);
     void addEmployee(Employee user);
     Model setUpdateEmployeeModel(Model mode, long id);

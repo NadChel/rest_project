@@ -21,6 +21,10 @@ public class EmployeeServiceImpl implements EmployeeService {
     public List<Employee> getAllEmployees() {
         return employeeDao.getAllEmployees();
     }
+    @Override
+    public Employee getEmployeeById(long id) {
+        return employeeDao.getEmployeeById(id);
+    }
 
     @Override
     public Model setAddEmployeeModel(Model model) {
