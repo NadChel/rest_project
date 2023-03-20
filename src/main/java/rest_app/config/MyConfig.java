@@ -9,7 +9,6 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 import java.util.Properties;
 
@@ -19,10 +18,11 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class MyConfig {
     @Bean
-    public DataSource dataSource() throws PropertyVetoException {
+    public ComboPooledDataSource dataSource() throws PropertyVetoException {
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
         comboPooledDataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-        comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost:3306/new_schema?useSSL=false&serverTimezone=UTC");
+        comboPooledDataSource.setJdbcUrl
+                ("jdbc:mysql://localhost:3306/new_schema?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC");
         comboPooledDataSource.setUser("bestuser");
         comboPooledDataSource.setPassword("bestuser");
         return comboPooledDataSource;
