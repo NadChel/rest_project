@@ -12,7 +12,6 @@
     <list default="true" id="98fbd000-0747-4f77-808f-bdd7f21f7266" name="Changes" comment="Рабочая версия">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest_app/dao/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_app/dao/EmployeeDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest_app/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest_app/models/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,7 @@
       <workItem from="1678952471510" duration="6213000" />
       <workItem from="1679013361322" duration="6000" />
       <workItem from="1679021054269" duration="2339000" />
-      <workItem from="1679303818304" duration="9133000" />
+      <workItem from="1679303818304" duration="11325000" />
     </task>
     <task id="LOCAL-00001" summary="Exception handling">
       <created>1679022871560</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679327821794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Рабочая версия">
+      <created>1679332497879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679332497879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

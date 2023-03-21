@@ -19,8 +19,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
     @Override
     public void addEmployee(Employee employee) {
         System.out.println("employee: " + employee);
-        Employee returnedEmployee = session.merge(employee);
-        System.out.println("returnedEmployee: " + returnedEmployee);
+        session.saveOrUpdate(employee);
     }
 
     @Override
